@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- daisy ui cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@2.24.0/dist/full.css" rel="stylesheet" type="text/css" />
   <!-- font family -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -397,16 +399,200 @@
     <h1 class="font-bold text-5xl">Business Tools to help <br> your business grow</h1>
   </div>
   <!-- tools section -->
-  <section class="mt-10 mx-20 mb-10">
-    <div>
+  <section class="mt-10 mx-20 mb-10 ml-32 grid grid-cols-4 bg-white px-10 py-10 rounded-lg">
+    <!-- card-1 -->
+    <div class="flex flex-col ">
       <div>
-        <img src="./images/tool/tool1.webp" alt="tool-1">
+        <img src="./images/tool/tool1.webp" alt="tool-1" class="w-60 mb-10">
       </div>
-      <h1></h1>
-      <p></p>
-      <a href="#" class="group">Learn More <i class="fa-solid hidden group-hover:inline fa-arrow-right duration-1000"></i></a>
+      <h1 class="text-4xl font-semibold pb-20">POS <br> Billing 
+        Software</h1>
+      <p class="text-2xl font-lg w-80">Say Hello to Smart Retail Business Management</p>
+      <a href="#" class="group text-blue-500 font-bold text-xl">Learn More <i class="fa-solid hidden group-hover:inline fa-arrow-right duration-1000"></i></a>
     </div>
-
+    <!-- card-2 -->
+    <div class="flex flex-col">
+      <div>
+        <img src="./images/tool/tool2.webp" alt="tool-2" class="w-60 mb-10">
+      </div>
+      <h1 class="text-4xl font-semibold pb-20 w-80">Paytm for <br>
+        Business App </h1>
+      <p class="text-2xl font-lg w-80">Everything you need to manage your business on your phone</p>
+      <a href="#" class="group text-blue-500 font-bold text-xl">Learn More <i class="fa-solid hidden group-hover:inline fa-arrow-right duration-1000"></i></a>
+    </div>
+    <!-- card-3 -->
+    <div class="flex flex-col">
+      <div>
+        <img src="./images/tool/tool3.webp" alt="tool-3" class="w-60 mb-10">
+      </div>
+      <h1 class="text-4xl font-semibold pb-20">Advertise on <br>
+        Paytm</h1>
+      <p class="text-2xl font-lg w-80">Grow your business by advertising on India’s largest mobile business</p>
+      <a href="#" class="group text-blue-500 font-bold text-xl">Learn More <i class="fa-solid hidden group-hover:inline fa-arrow-right duration-1000"></i></a>
+    </div>
+    <!-- card-4 -->
+    <div class="flex flex-col">
+      <div>
+        <img src="./images/tool/tool4.webp" alt="tool-4" class="w-60 mb-10">
+      </div>
+      <h1 class="text-4xl font-bold pb-20 w-80"> Business Khata</h1>
+      <p class="text-2xl font-lg w-80">Managing Khata made easy</p>
+      <a href="#" class="group text-blue-500 font-bold text-xl">Learn More <i class="fa-solid hidden group-hover:inline fa-arrow-right duration-1000"></i></a>
+    </div>
+  </section>
+  <!-- Product- paytm-money-carousel -->
+  <section class="mx-32 mt-20 px-20 bg-white rounded-lg py-20 flex flex-col md:flex-row justify-center items-center md:justify-between flex-nowrap">
+    <!-- card-left-->
+    <div class="flex md:flex-col w-48">
+      <div>
+        <img src="./images/services/patments-money.webp" alt="paytm-money" class="h-14">
+      </div>
+      <p class="pt-20 pb-2">Get started on wealth creation journey with Zero brokerage fee & no hidden charges.</p>
+      <a href="#" class="group text-blue-500 font-bold text-xl hover:text-blue-400">Learn More</a>
+    </div>
+    <!-- carousel right -->
+    <div class="flex overlow-scroll w-[100%] md:w-[80%] items-center">
+      <a href="#slide1" class="border-2 border-blue-400 rounded-full h-10 w-10 flex justify-center items-center bg-white text-blue-400 hover:border-blue-900 hover:text-blue-900">
+        <i class="fa-solid fa-angle-left text-2xl"></i>
+      </a>
+      <div class="carousel space-x-4 felx">
+        <div id="slide1" class="px-2 py-4 flex flex-col items-center carousel-item relative group w-44 h-60 bg-blue-200 rounded-lg">
+          <div class="h-40 overflow-hidden transition group rounded-lg cursor-pointer">
+            <img src="./images/fin-carousel1/fan1.webp" alt="stocks" 
+            class="rounded-lg h-40 w-44 duration-700 object-contain group-hover:scale-110 " />
+          </div>
+          <div>
+            <h1 class="text-center py-4 text-lg font-bold px-5 leading-2 text-white">
+                Invest in Stocks
+            </h1>
+          </div>
+        </div>
+        <div id="slide2" class="px-2 py-4 flex flex-col items-center carousel-item relative group w-44 h-60 bg-blue-200 rounded-lg">
+          <div class="h-40 overflow-hidden transition group rounded-lg cursor-pointer">
+            <img src="./images/fin-carousel1/fan2.webp" alt="stocks" 
+            class="rounded-lg h-40 w-44 duration-700 object-contain group-hover:scale-110 " />
+          </div>
+          <div>
+            <h1 class="text-center py-4 text-lg font-bold px-5 leading-2 text-white">
+                Apply for IPO
+            </h1>
+          </div>
+        </div>
+        <div id="slide3" class="px-2 py-4 flex flex-col items-center carousel-item relative group w-44 h-60 bg-blue-200 rounded-lg">
+          <div class="h-40 overflow-hidden transition group rounded-lg cursor-pointer">
+            <img src="./images/fin-carousel1/fan3.webp" alt="stocks" 
+            class="rounded-lg h-40 w-44 duration-700 object-contain group-hover:scale-110 "/>
+          </div>
+          <div>
+            <h1 class="text-center py-4 text-lg font-bold px-5 leading-2 text-white">
+                Invest in ETFs
+            </h1>
+          </div>
+        </div>
+        <div id="slide4" class="px-2 py-4 flex flex-col items-center carousel-item relative group w-44 h-60 bg-blue-200 rounded-lg">
+          <div class="h-40 overflow-hidden transition group rounded-lg cursor-pointer">
+            <img src="./images/fin-carousel1/fan4.webp" alt="stocks" 
+            class="rounded-lg h-40 w-44 duration-700 object-contain group-hover:scale-110 " />
+          </div>
+          <div>
+            <h1 class="text-center py-4 text-lg font-bold px-5 leading-2 text-white">
+                Buy Gold
+            </h1>
+          </div>
+        </div>
+        <div id="slide5" class="px-2 py-4 flex flex-col items-center carousel-item relative group w-44 h-60 bg-blue-200 rounded-lg">
+          <div class="h-40 overflow-hidden transition group rounded-lg cursor-pointer">
+            <img src="./images/fin-carousel1/fan5.webp" alt="stocks" 
+            class="rounded-lg h-40 w-44 duration-700 object-contain group-hover:scale-110 " />
+          </div>
+          <div>
+            <h1 class="text-center py-4 text-lg font-bold px-5 leading-2 text-white">
+                Invest in Mutual Funds
+            </h1>
+          </div>
+        </div>
+      </div>
+      <a href="#slide5" class="border-2 border-blue-400 rounded-full h-10 w-10 flex justify-center items-center bg-white text-blue-400 hover:border-blue-900 hover:text-blue-900">
+        <i class="fa-solid fa-angle-right text-2xl"></i>
+      </a>
+    </div>
+  </section>
+  <!-- product paytm-travel -->
+  <section class="mx-32 mt-20 px-20 bg-white rounded-lg py-20 flex flex-col md:flex-row justify-center items-center md:justify-between flex-nowrap">
+    <!-- card-left-->
+    <div class="flex md:flex-col w-48">
+      <div>
+        <img src="./images/fin-carousel2/py-travel.webp" alt="paytm-money" class="h-14">
+      </div>
+      <p class="pt-20 pb-2">Get started on wealth creation journey with Zero brokerage fee & no hidden charges.</p>
+      <a href="#" class="group text-blue-500 font-bold text-xl hover:text-blue-400">Learn More</a>
+    </div>
+    <!-- carousel right -->
+    <div class="flex overlow-scroll w-[100%] md:w-[80%] items-center">
+      <a href="#slide1" class="border-2 border-blue-400 rounded-full h-10 w-10 flex justify-center items-center bg-white text-blue-400 hover:border-blue-900 hover:text-blue-900">
+        <i class="fa-solid fa-angle-left text-2xl"></i>
+      </a>
+      <div class="carousel space-x-4 felx">
+        <div id="slide1" class="px-2 py-4 flex flex-col items-center carousel-item relative group w-44 h-60 bg-blue-200 rounded-lg">
+          <div class="h-40 overflow-hidden transition group rounded-lg cursor-pointer">
+            <img src="./images/fin-carousel1/fan1.webp" alt="stocks" 
+            class="rounded-lg h-40 w-44 duration-700 object-contain group-hover:scale-110 " />
+          </div>
+          <div>
+            <h1 class="text-center py-4 text-lg font-bold px-5 leading-2 text-white">
+                Invest in Stocks
+            </h1>
+          </div>
+        </div>
+        <div id="slide2" class="px-2 py-4 flex flex-col items-center carousel-item relative group w-44 h-60 bg-blue-200 rounded-lg">
+          <div class="h-40 overflow-hidden transition group rounded-lg cursor-pointer">
+            <img src="./images/fin-carousel1/fan2.webp" alt="stocks" 
+            class="rounded-lg h-40 w-44 duration-700 object-contain group-hover:scale-110 " />
+          </div>
+          <div>
+            <h1 class="text-center py-4 text-lg font-bold px-5 leading-2 text-white">
+                Apply for IPO
+            </h1>
+          </div>
+        </div>
+        <div id="slide3" class="px-2 py-4 flex flex-col items-center carousel-item relative group w-44 h-60 bg-blue-200 rounded-lg">
+          <div class="h-40 overflow-hidden transition group rounded-lg cursor-pointer">
+            <img src="./images/fin-carousel1/fan3.webp" alt="stocks" 
+            class="rounded-lg h-40 w-44 duration-700 object-contain group-hover:scale-110 "/>
+          </div>
+          <div>
+            <h1 class="text-center py-4 text-lg font-bold px-5 leading-2 text-white">
+                Invest in ETFs
+            </h1>
+          </div>
+        </div>
+        <div id="slide4" class="px-2 py-4 flex flex-col items-center carousel-item relative group w-44 h-60 bg-blue-200 rounded-lg">
+          <div class="h-40 overflow-hidden transition group rounded-lg cursor-pointer">
+            <img src="./images/fin-carousel1/fan4.webp" alt="stocks" 
+            class="rounded-lg h-40 w-44 duration-700 object-contain group-hover:scale-110 " />
+          </div>
+          <div>
+            <h1 class="text-center py-4 text-lg font-bold px-5 leading-2 text-white">
+                Buy Gold
+            </h1>
+          </div>
+        </div>
+        <div id="slide5" class="px-2 py-4 flex flex-col items-center carousel-item relative group w-44 h-60 bg-blue-200 rounded-lg">
+          <div class="h-40 overflow-hidden transition group rounded-lg cursor-pointer">
+            <img src="./images/fin-carousel1/fan5.webp" alt="stocks" 
+            class="rounded-lg h-40 w-44 duration-700 object-contain group-hover:scale-110 " />
+          </div>
+          <div>
+            <h1 class="text-center py-4 text-lg font-bold px-5 leading-2 text-white">
+                Invest in Mutual Funds
+            </h1>
+          </div>
+        </div>
+      </div>
+      <a href="#slide5" class="border-2 border-blue-400 rounded-full h-10 w-10 flex justify-center items-center bg-white text-blue-400 hover:border-blue-900 hover:text-blue-900">
+        <i class="fa-solid fa-angle-right text-2xl"></i>
+      </a>
+    </div>
   </section>
 </body>
 </html>
