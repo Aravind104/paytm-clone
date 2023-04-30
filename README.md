@@ -10,4 +10,4 @@ I built paytm.com clone using below `tech sack`
 
 ![paytm.com](./images/paytm-clone.png)
 
-live-link:[paytm.com-clone](https://paytmdotcom-clone.netlify.app/)
+live-link:[paytm.com-clone](https://paymentsdotcom.netlify.app/)
